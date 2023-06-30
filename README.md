@@ -1,0 +1,1 @@
+# Solid solution generate code

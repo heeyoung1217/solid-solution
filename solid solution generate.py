@@ -170,7 +170,7 @@ class SolidSolnsGen(object):
                 site_dict = site.as_dict()
                 A_species.append(site_dict['species'][0]['element'])
                 site_dict['species'] = []
-                site_dict['species'].append({'element': 'Li', 'oxidation_state': 0.0, 'occu': 1.0})
+                site_dict['species'].append({'element': 'Mg', 'oxidation_state': 0.0, 'occu': 1.0})
                 struc_A[index] = PeriodicSite.from_dict(site_dict)
                 index += 1
 
@@ -180,7 +180,7 @@ class SolidSolnsGen(object):
                 site_dict = site.as_dict()
                 B_species.append(site_dict['species'][0]['element'])
                 site_dict['species'] = []
-                site_dict['species'].append({'element': 'Li', 'oxidation_state': 0.0, 'occu': 1.0})
+                site_dict['species'].append({'element': 'Mg', 'oxidation_state': 0.0, 'occu': 1.0})
                 struc_B[index] = PeriodicSite.from_dict(site_dict)
                 index += 1
 
